@@ -195,6 +195,6 @@ restService.post("/slack-test", function(req, res) {
   });
 });
 
-restService.listen(process.env.PORT || 8000, function() {
+restService.listen(process.env.PORT || 5000, function() {
   console.log("Server up and listening");
 });
